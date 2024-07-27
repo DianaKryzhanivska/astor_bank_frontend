@@ -1,0 +1,249 @@
+.footer__logo-box {
+    background: #333;
+    padding: 34px 110px;
+    position: relative;
+}
+
+.footer__vector-img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 166px;
+    height: 28px;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+
+}
+
+.footer__block {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #171717;
+}
+
+.footer__contacts-phones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #8A8A8A;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.67em;
+}
+
+.footer__contacts-phones a:hover {
+    text-decoration: underline;
+}
+
+.footer__rating {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
+
+.footer__rating-text {
+    color: #FFF;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.57em;
+}
+
+.footer__rating-icons {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.footer__rating-icons svg {
+    width: 24px;
+    height: 24px;
+}
+
+.footer__socials-nav-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer__socials-img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 70px;
+    gap: 40px;
+}
+
+.footer__nav-title {
+    color: #8A8A8A;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer__nav-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer__nav-el {
+    color: #FFF;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.57em;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.footer__nav-el:hover {
+    transform: scale(1.1);
+}
+
+.footer__rights {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__rights-text {
+    color: #8A8A8A;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.footer__payment-icons {
+    display: flex;
+    align-items: center;
+    gap: 6px;    
+}
+
+.footer__payment-icon {
+    background: #fff;
+    padding: 4.06px 8.28px;
+    border-radius: 3.6px;
+    border: 0.6px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34.8px;
+    height: 24px;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 20px;
+}
+
+.footer__bottom-subtitle {
+    color: #8A8A8A;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.footer__bottom-text {
+    color: #667085;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer__vector-img {
+    display: none;
+  }
+  .footer__vector-img-desc {
+    width: 100%;
+  }
+  .footer__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__block {
+    padding-top: 80px;
+  }
+  .footer__socials-nav-block {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 82px;
+  }
+  .footer__socials {
+    padding: 0;
+  }
+  .footer__nav {
+    padding-bottom: 0;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .footer__nav-title {
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  .footer__nav-elements {
+    gap: 16px;
+  }
+  .footer__nav-el {
+    text-align: left;
+  }
+  .footer__payment-icons {
+    gap: 12px;
+  }
+  .footer__bottom-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+  .footer__vector-img-desc {
+    display: none;
+  }
+}

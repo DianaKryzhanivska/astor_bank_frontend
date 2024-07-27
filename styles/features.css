@@ -1,0 +1,58 @@
+.features__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.features__item {
+    background: #fff;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.features__vector-mob {
+    width: 100%;
+}
+
+.features__item-img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.features__item-title {
+    color: #333;
+    font-family: "Teko", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.features__item-desc {
+    color: #333;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.62em;
+}
+
+@media only screen and (min-width: 1280px) {
+  .features__vector-mob {
+    display: none;
+  }
+  .features__item {
+    flex-direction: row;
+    gap: 64px;
+    padding: 40px 64px;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+   .features__vector-desc {
+    display: none;
+  }
+}

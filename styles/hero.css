@@ -1,0 +1,127 @@
+.hero__section {
+    padding-bottom: 105px;
+}
+
+.hero__title {
+    font-family: 'Teko', sans-serif;
+    color: #094B70;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 1.04em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.hero__title span {
+    color: #171717;
+}
+
+.hero__text {
+    color: #333;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.62em;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 362px;
+}
+
+.hero__btn {
+    padding: 15px 40px;
+    border: 1px solid #FFF;
+    background: #333;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: #FFF;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.57em;
+    transition: 0.3s ease;
+}
+
+.hero__btn:hover {
+    background: rgb(51, 51, 51, 0.8);
+}
+
+.hero__btn-icon-box {
+    padding: 4px 8px;
+}
+
+.hero__btn-svg {
+    width: 7px;
+    height: 10px;
+}
+
+.hero__cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__cards--first {
+    width: 296px;
+    height: 178px;
+    margin-left: auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.hero__cards--second-wrapper {
+    position: relative;
+}
+
+.hero__cards--second {
+    position: absolute;
+    width: 291px;
+    height: 172px;
+    bottom: -65px;
+    left: 1px;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.hero__cards--second-chip {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero__title {
+    width: 670px;
+  }
+  .hero__text {
+    font-size: 20px;
+    max-width: 520px;
+    margin-bottom: 64px;
+  }
+  .hero__btn {
+    font-size: 16px;
+  }
+  .hero {
+    padding-top: 140px;
+    display: flex;
+    gap: 27px;
+  }
+  .hero__cards {
+    margin-left: auto;
+    margin-top: 245px;
+  }
+  .hero__cards--first, 
+  .hero__cards--second {
+    width: 558px;
+    height: 330px;
+    border-radius: 22px;
+  }
+  .hero__cards--second {
+    left: -113px;
+    bottom: -132px;
+  }
+  .hero__section {
+    padding-bottom: 282px;
+  }
+}
