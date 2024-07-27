@@ -167,4 +167,8 @@
   .form__section::before {
     background-image: url("../assets/images/bg-desc.png");
   }
+  .form__message {
+    width: 420px;
+    margin: 0 auto;
+  }
 }
